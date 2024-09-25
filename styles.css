@@ -1,0 +1,108 @@
+body {
+    font-family: "Cormorant Garamond", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #df5ed4;
+    color: #3b0369;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url(imagem.jpeg);
+    width: 100%;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav a {
+    color: #400442f1;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section#descricao {
+    background: #cc80cc;
+}
+
+section#planos {
+    background: #520661;
+}
+
+.plano {
+    background: #f0b5e4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plano h3 {
+    margin: 0;
+}
+
+.plano button {
+    background: #333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.plano button:hover {
+    background: #ebebeb;
+}
+
+section#login form {
+    background: #96228c;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#login label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+section#login input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #aa3797;
+    border-radius: 5px;
+}
+
+section#login button {
+    background: #77175c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section#login button:hover {
+    background: #e2d4e2;
+}
+
+footer {
+    background: #333;
+    color: #e7dfe9;
+    padding: 10px 0;
+    text-align: center;
+}
